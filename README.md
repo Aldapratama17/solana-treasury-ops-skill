@@ -207,20 +207,3 @@ or database.
 MIT — see [LICENSE](./LICENSE).
 ```
 
-- Spending alerts - flags outgoing transactions that are unusually
-  large or sent to a new, previously-unpaid destination.
-- Governance report - assembles a short, copy-pasteable treasury
-  update for a DAO forum or Discord post.
-
-## Structure
-Follows the progressive-loading pattern from solana-game-skill: SKILL.md
-routes to the specific sub-skill needed instead of loading everything at
-once.
-
-## Install
-
-```bash
-git clone <this repo>
-cd solana-treasury-ops-skill
-./installer.sh
-
